@@ -12,7 +12,7 @@
   <DisplayName DefaultValue="File Linklist Creator"/>
   <Description DefaultValue="Converts local file paths to clickable links."/>
 
-  <IconUrl DefaultValue="https://bjarnefiegenbaum.github.io/FileLinklistOutlookAddin/assets/images/icon80x80.png"/>
+  <IconUrl DefaultValue="https://bjarnefiegenbaum.github.io/FileLinklistOutlookAddin/assets/images/icon32x32.png"/>
   <SupportUrl DefaultValue="https://modelyzr.com"/>
 
   <Hosts>
