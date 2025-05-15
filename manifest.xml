@@ -27,7 +27,7 @@
 
   <Permissions>ReadWriteItem</Permissions>
 
-  <VersionOverrides xmlns="https://schemas.microsoft.com/office/taskpaneappversionoverrides" Version="1.0">
+  <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" Version="1.0">
     <Hosts>
       <Host xsi:type="MailHost">
         <DesktopFormFactor>
