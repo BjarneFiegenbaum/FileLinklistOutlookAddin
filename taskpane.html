@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>File Linklist Add-in</title>
+  <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    h1 {
+      font-size: 1.5em;
+    }
+    button {
+      margin-top: 15px;
+      padding: 10px;
+      font-size: 1em;
+    }
+  </style>
+</head>
+<body>
+  <h1>📎 Dateipfade verlinken</h1>
+  <p>Dieses Add-in konvertiert erkannte T:\ / S:\ / U:\ Pfade zu UNC-Links mit Dateinamen.</p>
+
+  <button id="runButton">Jetzt ausführen</button>
+
+  <script>
+    Office.onReady(() => {
+      document.getElementById("runButton").onclick = () => {
+        if (window.insertFileLinks) {
+          window.insertFileLinks();
+        } else {
+          alert("Funktion 'insertFileLinks' nicht geladen.");
+        }
+      };
+    });
+  </script>
+</body>
+</html>
